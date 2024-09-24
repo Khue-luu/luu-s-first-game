@@ -1,0 +1,71 @@
+
+body{
+    background-color: #f0dad2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;/*can giua noi dung theo chieu doc ben tren flexbox*/
+    justify-content: center;/*can chinh mot phan tu theo cheiu ngang*/
+    min-height: 100vh;/*dam bao noi dung o giua man hinh*/
+}    
+
+
+#title{
+    
+    font-family: "Oleo Script", system-ui;
+    font-weight: 900;
+    font-style: normal;
+    color: maroon;
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+p{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    color: maroon;
+
+}
+.player{
+    
+    display: flex;
+    gap:100px;
+    justify-content: center;/*can chinh cac phan tu con theo chieu ngang*/
+}
+.Dicce{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 100px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+button{
+    width: 70px;
+    height: 50px;
+    border-radius: 20%;
+    background-color: indianred;
+    font-family: "Satisfy", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    text-align: center;
+    
+}
+footer{
+    
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    text-align: center;
+      
+}
